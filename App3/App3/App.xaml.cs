@@ -31,6 +31,16 @@ namespace App3
                         Title = "About",
                         Icon = Device.OnPlatform("tab_about.png",null,null)
                     },
+                    new NavigationPage(new Page1())
+                    {
+                        Title = "ListView",
+                        Icon = Device.OnPlatform("tab_about.png",null,null)
+                    },
+                    new NavigationPage(new Page2())
+                    {
+                        Title = "ListView",
+                        Icon = Device.OnPlatform("tab_about.png",null,null)
+                    },
                 }
             };
         }
