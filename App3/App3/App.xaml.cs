@@ -28,7 +28,7 @@ namespace App3
                     },
                     new NavigationPage(new AboutPage())
                     {
-                        Title = "Abouttt",
+                        Title = "Aboutttt",
                         Icon = Device.OnPlatform("tab_about.png",null,null)
                     },
                     new NavigationPage(new Page1())
